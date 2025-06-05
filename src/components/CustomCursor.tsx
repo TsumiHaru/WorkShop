@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react';
-const CustomCursor = () => {
+import { useEffect, useState } from 'react';
+import type { FC } from 'react';
+
+const CustomCursor: FC = () => {
   const [position, setPosition] = useState({ 
     x: 0,
     y: 0
