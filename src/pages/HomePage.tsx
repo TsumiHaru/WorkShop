@@ -100,11 +100,13 @@ const HomePage = () => {
               <p className="text-xl text-pink-200">Chanteur Compositeur</p>
               <div className="max-w-3xl px-6 py-8 mx-auto mt-10 text-base text-center shadow-lg pointer-events-auto bg-black/40 backdrop-blur-sm rounded-xl text-white/90" style={{lineHeight: '1.8'}}>
                 <h2 className="mb-4 text-xl font-semibold text-pink-100">À propos de l'artiste</h2>
-                <p className="break-words whitespace-pre-line">
+                <p className="mb-4 break-words">
                   Maxime Demeulemeester est un artiste originaire du nord de la France, où la lumière, les paysages et l'énergie des gens nourrissent son inspiration au quotidien. Son univers musical est profondément marqué par ses racines et par la richesse culturelle de cette région.
-                  
+                </p>
+                <p className="mb-4 break-words">
                   Passionné depuis l'enfance par la musique, Maxime puise son inspiration dans des artistes internationaux tels que Pink et Miley Cyrus. Leur capacité à transmettre des émotions brutes et authentiques à travers leurs chansons a profondément influencé sa manière de composer et d'interpréter.
-                  
+                </p>
+                <p className="break-words">
                   Entre introspection et énergie scénique, Maxime propose une musique sincère, à la croisée de la pop, du rock et de la chanson française. Son parcours est une invitation à découvrir une sensibilité unique, portée par des influences variées et une histoire personnelle forte.
                 </p>
               </div>
