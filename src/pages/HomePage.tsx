@@ -99,12 +99,14 @@ const HomePage = () => {
               </h1>
               <p className="text-xl text-pink-200">Chanteur Compositeur</p>
               <div className="max-w-3xl px-6 py-8 mx-auto mt-10 text-base text-center shadow-lg pointer-events-auto bg-black/40 backdrop-blur-sm rounded-xl text-white/90" style={{lineHeight: '1.8'}}>
-                <h2 className="mb-4 text-xl font-semibold text-pink-100">Bienvenue dans mon univers musical</h2>
+                <h2 className="mb-4 text-xl font-semibold text-pink-100">À propos de l'artiste</h2>
                 <p>
-                  Ce portfolio est une invitation à découvrir mon univers musical, un espace où la passion pour la musique rencontre l'expression artistique. À travers ces pages, je vous propose de plonger dans mon parcours de chanteur et compositeur.<br /><br />
-                  Vous y trouverez une collection de mes albums, chacun racontant une histoire unique, une émotion particulière. De mes premières compositions aux projets les plus récents, chaque note témoigne d'une évolution constante dans ma quête artistique.<br /><br />
-                  Les photographies qui accompagnent cette présentation capturent des moments précieux : des performances live, des sessions d'enregistrement, des rencontres avec d'autres artistes. Elles offrent un aperçu intime de la vie d'un musicien, entre scène et studio.<br /><br />
-                  Explorez, écoutez, et laissez-vous porter par les mélodies qui ont façonné mon parcours. Bienvenue dans mon monde musical.
+                
+Maxime Demeulemeester est un artiste originaire du nord de la France, où la lumière, les paysages et l'énergie des gens nourrissent son inspiration au quotidien. Son univers musical est profondément marqué par ses racines et par la richesse culturelle de cette région.
+
+Passionné depuis l'enfance par la musique, Maxime puise son inspiration dans des artistes internationaux tels que Pink et Miley Cyrus. Leur capacité à transmettre des émotions brutes et authentiques à travers leurs chansons a profondément influencé sa manière de composer et d'interpréter.
+
+Entre introspection et énergie scénique, Maxime propose une musique sincère, à la croisée de la pop, du rock et de la chanson française. Son parcours est une invitation à découvrir une sensibilité unique, portée par des influences variées et une histoire personnelle forte.
                 </p>
               </div>
             </motion.div>
