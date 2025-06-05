@@ -1,0 +1,36 @@
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  mix-blend-mode: difference;
+  margin-left: -4px;
+  margin-top: -4px;
+}
+.cursor-ring {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  opacity: 0.6;
+  margin-left: -15px;
+  margin-top: -15px;
+  mix-blend-mode: difference;
+}
+.horizontal-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+html, body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  cursor: none;
+}
+* {
+  box-sizing: border-box;
+}
