@@ -77,14 +77,14 @@ const HomePage = () => {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-  return <div className="home-page w-full h-screen relative overflow-hidden">
+  return <div className="relative w-full h-screen overflow-hidden home-page">
       <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-full -z-10" />
       {/* Conteneur de défilement horizontal */}
       <HorizontalScroll>
-        <div className="h-full flex items-center">
-          <div className="w-screen h-full flex justify-center items-center relative">
+        <div className="flex items-center h-full">
+          <div className="relative flex items-center justify-center w-screen h-full">
             {/* Titre et description positionnés de manière à ne pas interférer avec le scroll */}
-            <motion.div className="pointer-events-none absolute z-10 text-center" initial={{
+            <motion.div className="absolute z-10 text-center pointer-events-none" initial={{
             opacity: 0,
             scale: 0.8
           }} animate={{
@@ -94,10 +94,19 @@ const HomePage = () => {
             duration: 1.5,
             ease: 'easeOut'
           }}>
-              <h1 className="text-8xl font-bold text-white tracking-wider mb-4">
+              <h1 className="mb-4 font-bold tracking-wider text-white text-8xl">
                 MAX DEM
               </h1>
               <p className="text-xl text-pink-200">Chanteur Compositeur</p>
+              <div className="max-w-2xl mx-auto mt-8 text-base text-center pointer-events-auto text-white/80">
+                <h2 className="mb-2 text-2xl font-semibold">Bienvenue dans mon univers musical</h2>
+                <p>
+                  Ce portfolio est une invitation à découvrir mon univers musical, un espace où la passion pour la musique rencontre l'expression artistique. À travers ces pages, je vous propose de plonger dans mon parcours de chanteur et compositeur.<br /><br />
+                  Vous y trouverez une collection de mes albums, chacun racontant une histoire unique, une émotion particulière. De mes premières compositions aux projets les plus récents, chaque note témoigne d'une évolution constante dans ma quête artistique.<br /><br />
+                  Les photographies qui accompagnent cette présentation capturent des moments précieux : des performances live, des sessions d'enregistrement, des rencontres avec d'autres artistes. Elles offrent un aperçu intime de la vie d'un musicien, entre scène et studio.<br /><br />
+                  Explorez, écoutez, et laissez-vous porter par les mélodies qui ont façonné mon parcours. Bienvenue dans mon monde musical.
+                </p>
+              </div>
             </motion.div>
           </div>
           <AlbumCard title="You Don't Know Me" image="/500455369_9867938859992636_8211285568910525065_n.jpg" color="#10b981" link="/green-album" />
@@ -107,7 +116,7 @@ const HomePage = () => {
         </div>
       </HorizontalScroll>
       {/* Indication de navigation */}
-      <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 flex space-x-4 text-white text-opacity-70 pointer-events-none">
+      <div className="fixed flex space-x-4 text-white transform -translate-x-1/2 pointer-events-none bottom-10 left-1/2 text-opacity-70">
         <div className="flex items-center">
           <span className="mr-2">←</span>
           <span>Glisser</span>
