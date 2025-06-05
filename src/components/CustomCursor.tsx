@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 const CustomCursor = () => {
-  const [position, setPosition] = useState({
+  const [position, setPosition] = useState({ 
     x: 0,
     y: 0
   });
@@ -36,12 +36,12 @@ const CustomCursor = () => {
     };
   }, []);
   return <>
-      <div className="cursor-dot fixed pointer-events-none z-50 transition-transform duration-75" style={{
+      <div className="fixed z-50 transition-transform duration-75 pointer-events-none cursor-dot" style={{
       left: `${position.x}px`,
       top: `${position.y}px`,
       transform: isClicking ? 'scale(0.8)' : isHovering ? 'scale(1.5)' : 'scale(1)'
     }} />
-      <div className="cursor-ring fixed pointer-events-none z-50 transition-transform duration-200" style={{
+      <div className="fixed z-50 transition-transform duration-200 pointer-events-none cursor-ring" style={{
       left: `${position.x}px`,
       top: `${position.y}px`,
       transform: isHovering ? 'scale(1.8)' : 'scale(1)'
