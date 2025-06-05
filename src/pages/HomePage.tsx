@@ -119,7 +119,7 @@ const HomePage = () => {
             </motion.div>
           </div>
           <AlbumCard title="You Don't Know Me" image="/500455369_9867938859992636_8211285568910525065_n.jpg" color="#10b981" link="/green-album" />
-          <AlbumCard title="Purple Sparkle" image="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23331466'/%3E%3C/svg%3E" color="#581c87" link="/purple-album" />
+          <AlbumCard title="Purple Sparkle" image="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%238C4F92'/%3E%3C/svg%3E" color="#581c87" link="/purple-album" />
           <AlbumCard title="Heart & Soul" image="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='black'/%3E%3Cpath d='M50,30 C45,25 35,25 30,35 C25,45 35,50 50,65 C65,50 75,45 70,35 C65,25 55,25 50,30 Z' fill='%23991b1b'/%3E%3C/svg%3E" color="#7f1d1d" link="/red-album" />
           <div className="w-[350px] h-full"></div>
         </div>
