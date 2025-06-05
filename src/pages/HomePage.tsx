@@ -98,8 +98,8 @@ const HomePage = () => {
                 MAX DEM
               </h1>
               <p className="text-xl text-pink-200">Chanteur Compositeur</p>
-              <div className="max-w-2xl mx-auto mt-8 text-base text-center pointer-events-auto text-white/80">
-                <h2 className="mb-2 text-2xl font-semibold">Bienvenue dans mon univers musical</h2>
+              <div className="max-w-3xl px-6 py-8 mx-auto mt-10 text-base text-center shadow-lg pointer-events-auto bg-black/40 backdrop-blur-sm rounded-xl text-white/90" style={{lineHeight: '1.8'}}>
+                <h2 className="mb-4 text-xl font-semibold text-pink-100">Bienvenue dans mon univers musical</h2>
                 <p>
                   Ce portfolio est une invitation à découvrir mon univers musical, un espace où la passion pour la musique rencontre l'expression artistique. À travers ces pages, je vous propose de plonger dans mon parcours de chanteur et compositeur.<br /><br />
                   Vous y trouverez une collection de mes albums, chacun racontant une histoire unique, une émotion particulière. De mes premières compositions aux projets les plus récents, chaque note témoigne d'une évolution constante dans ma quête artistique.<br /><br />
