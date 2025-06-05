@@ -11,9 +11,9 @@ export function App() {
         <CustomCursor />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/YouDontKnowMePage" element={<YouDontKnowMePage />} />
-          <Route path="/PurpleSparklePage" element={<PurpleSparklePage />} />
-          <Route path="/HeartAndSoulPage" element={<HeartAndSoulPage />} />
+          <Route path="/green-album" element={<YouDontKnowMePage />} />
+          <Route path="/purple-album" element={<PurpleSparklePage />} />
+          <Route path="/red-album" element={<HeartAndSoulPage />} />
         </Routes>
       </div>
     </Router>;
