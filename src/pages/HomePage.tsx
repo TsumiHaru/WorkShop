@@ -94,7 +94,7 @@ const HomePage = () => {
             duration: 1.5,
             ease: 'easeOut'
           }}>
-              <div className="flex flex-col items-center justify-center gap-12 mt-10 md:flex-row">
+              <div className="flex flex-col items-center justify-center gap-24 mt-10 md:flex-row">
                 {/* Bloc titre et sous-titre */}
                 <div className="flex flex-col items-center max-w-md md:items-start">
                   <h1 className="mb-4 font-bold tracking-wider text-center text-white text-8xl md:text-left">
