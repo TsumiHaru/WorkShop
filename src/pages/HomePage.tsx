@@ -112,7 +112,7 @@ const HomePage = () => {
                     Avec un style qui équilibre énergie colorée et émotions plus sombres, Max crée des chansons sincères et touchantes.
                   </p>
                   <p className="text-left break-words whitespace-normal">
-                    Son objectif est simple : toicher les gens grâce à une musique qui parle au coeur.
+                    Son objectif est simple : toucher les gens grâce à une musique qui parle au coeur.
                   </p>
                 </div>
               </div>
