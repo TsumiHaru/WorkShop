@@ -42,7 +42,7 @@ const HorizontalScroll: React.FC<HorizontalScrollProps> = ({
     const walk = (x - startX) * 2; // Scroll speed multiplier
     scrollContainerRef.current.scrollLeft = scrollLeft - walk;
   };
-  return <div ref={scrollContainerRef} className="horizontal-scroll w-full h-full overflow-x-auto overflow-y-hidden whitespace-nowrap flex" onMouseDown={handleMouseDown} onMouseUp={handleMouseUp} onMouseLeave={handleMouseLeave} onMouseMove={handleMouseMove}>
+  return <div ref={scrollContainerRef} className="flex w-full h-full overflow-x-auto overflow-y-hidden horizontal-scroll whitespace-nowrap" onMouseDown={handleMouseDown} onMouseUp={handleMouseUp} onMouseLeave={handleMouseLeave} onMouseMove={handleMouseMove}>
       {children}
     </div>;
 };

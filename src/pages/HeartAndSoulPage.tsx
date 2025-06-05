@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeftIcon } from 'lucide-react';
+import { ArrowLeftIcon, HeartIcon } from 'lucide-react';
 
-const PurpleAlbumPage = () => {
-  return <div className="album-page w-full h-screen relative overflow-hidden bg-purple-800">
+const HeartAndSoulPage = () => {
+  return <div className="album-page w-full h-screen relative overflow-hidden bg-black">
       {/* Bouton retour */}
       <motion.div className="absolute top-8 left-8 z-20" initial={{
       opacity: 0,
@@ -22,7 +22,7 @@ const PurpleAlbumPage = () => {
       </motion.div>
       {/* Contenu de l'album */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <motion.div className="max-w-4xl w-full mx-auto px-6 py-12 bg-purple-700/80 backdrop-blur-sm rounded-xl text-white" initial={{
+        <motion.div className="max-w-4xl w-full mx-auto px-6 py-12 bg-red-900/90 backdrop-blur-sm rounded-xl text-white" initial={{
         opacity: 0,
         y: 20
       }} animate={{
@@ -32,34 +32,36 @@ const PurpleAlbumPage = () => {
         delay: 0.3
       }}>
           <div className="flex flex-col md:flex-row gap-8 items-center">
-            <motion.div className="w-64 h-64 relative overflow-hidden rounded-lg bg-purple-900" whileHover={{
+            <motion.div className="w-64 h-64 flex items-center justify-center bg-black/40 rounded-lg" whileHover={{
             scale: 1.05
-          }} />
+          }}>
+              <HeartIcon size={96} className="text-red-700" />
+            </motion.div>
             <div className="flex-1">
-              <h1 className="text-4xl font-bold mb-2">Purple Sparkle</h1>
-              <h2 className="text-2xl text-purple-200 mb-6">Max Dem</h2>
+              <h1 className="text-4xl font-bold mb-2">Heart & Soul</h1>
+              <h2 className="text-2xl text-red-300 mb-6">Max Dem</h2>
               <div className="space-y-4">
                 <p className="text-lg">
                   Premier titre de mon projet en préparation. Un album introspectif sur la trahison et le fait d'être sous-estimé.
                 </p>
                 <div className="pt-6 space-y-2">
-                  <div className="flex justify-between items-center py-2 border-b border-purple-300/30 hoverable">
+                  <div className="flex justify-between items-center py-2 border-b border-red-300/30 hoverable">
                     <span className="text-lg">1. Heart & Soul</span>
                     <span>3:45</span>
                   </div>
-                  <div className="flex justify-between items-center py-2 border-b border-purple-300/30 hoverable">
+                  <div className="flex justify-between items-center py-2 border-b border-red-300/30 hoverable">
                     <span className="text-lg">2. Neon Reflections</span>
                     <span>4:12</span>
                   </div>
-                  <div className="flex justify-between items-center py-2 border-b border-purple-300/30 hoverable">
+                  <div className="flex justify-between items-center py-2 border-b border-red-300/30 hoverable">
                     <span className="text-lg">3. Emerald City</span>
                     <span>3:58</span>
                   </div>
-                  <div className="flex justify-between items-center py-2 border-b border-purple-300/30 hoverable">
+                  <div className="flex justify-between items-center py-2 border-b border-red-300/30 hoverable">
                     <span className="text-lg">4. Waves of Light</span>
                     <span>5:23</span>
                   </div>
-                  <div className="flex justify-between items-center py-2 border-b border-purple-300/30 hoverable">
+                  <div className="flex justify-between items-center py-2 border-b border-red-300/30 hoverable">
                     <span className="text-lg">5. Emerald Depths</span>
                     <span>4:07</span>
                   </div>
@@ -72,4 +74,4 @@ const PurpleAlbumPage = () => {
     </div>;
 };
 
-export default PurpleAlbumPage; 
+export default HeartAndSoulPage; 
